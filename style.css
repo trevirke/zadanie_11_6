@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    background: #ffffdc;
+}
+h1,
+.create-column {
+    margin: 20px 30px;  
+    color: gray;
+}
+p {
+    font-size: 20px;
+}
+button {
+    border: none;
+    cursor: pointer;
+    background: none;    
+    transition: 0.3s;
+    color: gray;
+}
+button:hover {
+    text-decoration: underline;
+    color: #bcbcbc;
+}
+.column-container {
+    background: #e1fdfc;
+    height: 100vh;
+    padding-top: 15px;
+}
+.column {
+    margin: 50px 30px;
+    color: gray;
+}
+.card {
+    display: flex;
+    align-items: center;    
+    cursor: pointer;
+    color: black;       
+}
